@@ -74,6 +74,7 @@ dependencies {
     kapt(libs.hilt.compiler)
 
     implementation(libs.navigation.compose)
+    implementation(libs.hilt.navigation.compose)
 }
 kapt {
     correctErrorTypes = true
