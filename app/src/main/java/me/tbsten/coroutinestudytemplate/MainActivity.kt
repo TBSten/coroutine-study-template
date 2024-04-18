@@ -12,6 +12,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import dagger.hilt.android.AndroidEntryPoint
+import me.tbsten.coroutinestudytemplate.favorites.screen.FavoritesScreen
 import me.tbsten.coroutinestudytemplate.home.screen.HomeScreen
 import me.tbsten.coroutinestudytemplate.ui.theme.CoroutinestudytemplateTheme
 
@@ -42,6 +43,7 @@ fun AppNav() {
             HomeScreen()
         }
         composable("favorites") {
+            FavoritesScreen()
         }
     }
 }
